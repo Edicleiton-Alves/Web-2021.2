@@ -1,0 +1,30 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 9px;
+  }
+
+#linksBorder{
+    border: 1px solid black;
+    margin-left: 570px;
+    width: 180px;
+    height: 45px;
+    padding: 5px;
+    color: #FFF;
+}
+h2{
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    top: 1%;
+    left: 42%;
+    position: relative;
+}
