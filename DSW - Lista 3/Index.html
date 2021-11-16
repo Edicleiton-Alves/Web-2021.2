@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculadora</title>
-    <script src="Calculator.js"></script>
     <link rel="stylesheet" href="Calculator.css">
 </head>
 
@@ -21,37 +20,38 @@
             </div>
             <table>
                 <tr>
-                    <td><button>C</button></td>
-                    <td><button><</button></td>
-                    <td><button>÷</button></td>
-                    <td><button>X</button></td>
+                    <td><button class="botao" id="Clear">C</button></td>
+                    <td><button class="botao" id="backspace"><</button></td88>
+                    <td><button class="botao" id="÷">÷</button></td>
+                    <td><button class="botao" id="X">X</button></td>
                 </tr>
                 <tr>
-                    <td><button>7</button></td>
-                    <td><button>8</button></td>
-                    <td><button>9</button></td>
-                    <td><button>-</button></td>
+                    <td><button class="botao" id="7">7</button></td>
+                    <td><button class="botao" id="8">8</button></td>
+                    <td><button class="botao" id="9">9</button></td>
+                    <td><button class="botao" id="-">-</button></td>
                 </tr>
                 <tr>
-                    <td><button>4</button></td>
-                    <td><button>5</button></td>
-                    <td><button>6</button></td>
-                    <td><button>+</button></td>
+                    <td><button class="botao" id="4">4</button></td>
+                    <td><button class="botao" id="5">5</button></td>
+                    <td><button class="botao" id="6">6</button></td>
+                    <td><button class="botao" id="+">+</button></td>
                 </tr>
                 <tr>
-                    <td><button>1</button></td>
-                    <td><button>2</button></td>
-                    <td><button>3</button></td>
-                    <td><button>=</button></td>
+                    <td><button class="botao" id="1">1</button></td>
+                    <td><button class="botao" id="2">2</button></td>
+                    <td><button class="botao" id="3">3</button></td>
+                    <td rowspan="2"><button class="botao" id="=" style="height: 106px;">=</button></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><button>0</button></td>
-                    <td><button>.</button></td>
+                    <td colspan="2"><button class="botao" style="width: 106px;">0</button></td>
+                    <td><button class="botao">.</button></td>
                 </tr>
             </table>
         </div>
 
     </div>
+    <script src="Calculator.js"></script>
 </body>
 
 </html>
