@@ -41,27 +41,19 @@ body{
     background-color: rgb(0, 0, 0);
 }
 
-#result{
-    height: 130px;
+.resultado{
+    height: 60px;
+    font-size: 50px;
     color: #eaedef;
     text-align: right;
-} 
+}
+.resultado2{
+    height: 40px;
+    font-size: 28px;
+    color: #eaedef;
+    text-align: right;
+}
 
 .number, .empty{
     background-color: #eaedef;
-}
-
-#history{
-    text-align: right;
-    height: 20px;
-    margin: 0px 6px;
-    padding-top: 20px;
-    font-size: #919191;
-}
-
-#output{
-    text-align: right;
-    height: 60px;
-    margin: 10px 6px;
-    font-size: 30px;
 }
