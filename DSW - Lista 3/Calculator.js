@@ -1,34 +1,3 @@
-// function insert(num){
-// 	var numero = document.getElementById('resultado').innerHTML;
-// 	document.getElementById('resultado').innerHTML = numero + num;
-// }
-
-// function exponential(){
-// 	var numero = document.getElementById('resultado').innerHTML;
-// 	document.getElementById("resultado").innerHTML = numero ** num;
-// }
-
-// function clean(){
-// 	document.getElementById('resultado').innerHTML = "";
-// }
-// function back(){
-// 	var resultado = document.getElementById('resultado').innerHTML;
-// 	document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1);
-// }
-// function calcular(){
-// 	var resultado = document.getElementById('resultado').innerHTML;
-// 	if(resultado)
-// 	{
-// 		document.getElementById('resultado').innerHTML = eval(resultado);
-// 	}
-// 	else
-// 	{
-// 		document.getElementById('resultado').innerHTML = "Nada..."
-// 	}
-// }
-
-//tentativa 2
-
 var num1, num2 = 0
 var maxdigitos = 0
 var resultado = 0
