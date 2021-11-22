@@ -1,0 +1,95 @@
+body {
+  --nav-width: 200px;
+  margin: 0 0 0 var(--nav-width);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: var(--nav-width);
+  height: 100vh;
+  background: #222222;
+}
+
+.nav__link {
+  display: block;
+  padding: 12px 18px;
+  text-decoration: none;
+  color: #eeeeee;
+  font-weight: 500;
+}
+
+.nav__link:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+#app {
+  line-height: 1.5;
+  font-weight: 500;
+  padding: 22%;
+  background:  linear-gradient( -110grad, #008080, #008080);
+}
+
+a {
+  color: #009579;
+}
+
+:root {
+  --color-light: white;
+  --color-dark: #212121;
+  --color-signal: #fab700;
+  
+  --color-background: var(--color-light);
+  --color-text: var(--color-dark);
+  --color-accent: var(--color-signal);
+  
+  --size-bezel: 5px;
+  
+  line-height: 2;
+  
+  font-family: 'Inter', sans-serif;
+  font-size: calc(.6rem + .4vw);
+  color: var(--color-text);
+  background: var(--color-background);
+  font-weight: 300;
+  padding: 1 calc(var(--size-bezel) * 3);
+  
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+  text-align: center;
+}
+
+.card {
+  background: var(--color-background);
+  padding: calc(2 * var(--size-bezel));
+  border-radius: var(--size-radius);
+  border: 3px solid var(--color-shadow, currentColor);
+  box-shadow: .5rem .5rem 0 var(--color-shadow, currentColor);
+}
+
+.button-group {
+  margin-top: calc(var(--size-bezel) * 2.5);
+}
+
+button {
+  cursor:pointer;
+  box-shadow:2px 2px 5px #000000;
+  color: currentColor;
+  padding: var(--size-bezel) calc(var(--size-bezel) * 2);
+  background: var(--color-accent);
+  border: none;
+  border-radius: var(--size-radius);
+  font-weight: 900;
+  border-radius:10px 10px 10px 10px;
+  -moz-border-radius:10px 10px 10px 10px;
+  -webkit-border-radius:10px 10px 10px 10px; 
+}
+
+button + button {
+  margin-left: calc(var(--size-bezel) * 2);
+}
